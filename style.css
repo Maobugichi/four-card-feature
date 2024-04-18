@@ -1,0 +1,181 @@
+body {
+  background-color:hsl(0, 0%, 98%) ;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading h1 {
+  color:hsl(234, 12%, 34%) ;
+}
+
+.heading p {
+  text-align: center;
+  width: 450px;
+  color: hsl(229, 6%, 66%);
+}
+.main-div {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  gap: 25px;
+}
+
+ {
+  
+}
+.axis-div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.supervisor {
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  border-radius: 5px;
+  padding: 
+20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.supervisor-heading {
+  color: hsl(234, 12%, 34%);
+}
+
+.supervisor-para {
+  color:hsl(229, 6%, 66%) ;
+}
+
+.team-builder {
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  border-top: 3px solid  hsl(0, 78%, 62%);
+  border-radius: 5px;
+  padding: 
+20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.team-heading {
+  color:  hsl(234, 12%, 34%);
+}
+
+.team-para {
+  color: hsl(229, 6%, 66%);
+}
+.karma-div {
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  border-top: 3px solid  hsl(34, 97%, 64%);
+  border-radius: 5px;
+  padding: 
+20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.karma-heading {
+  color:hsl(234, 12%, 34%);
+}
+
+.karma-para {
+  color:hsl(229, 6%, 66%) ;
+}
+
+.calculator-div {
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  border-top: 3px solid  hsl(212, 86%, 64%);
+  border-radius: 5px;
+  padding: 
+10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.calculator-heading {
+  color:  hsl(234, 12%, 34%);
+}
+
+.calculator-para {
+  color:hsl(229, 6%, 66%) ;
+}
+
+.image-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width:800px) {
+ body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+ }
+  
+  .heading h1 {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+.heading p {
+  text-align: center;
+  width: 300px;
+  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+ .main-div {
+  display: block;
+  margin-bottom: 100px;
+ }
+
+ .axis-div {
+  display: block;
+
+ }
+ .supervisor {
+  width: 250px;
+  height: 200px; 
+  margin-bottom: 15px;
+}
+
+  .team-builder {
+    width: 250px;
+    height: 220px;
+   
+    margin-bottom: 15px;
+  }
+
+    .karma-div {
+      width: 250px;
+      height: 200px;
+    margin-bottom: 15px;}
+
+      .calculator-div {
+        width: 270px;
+        height: 200px;
+        padding: 15px;
+        
+      }
+
+        
+
+}
